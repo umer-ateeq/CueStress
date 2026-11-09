@@ -66,12 +66,14 @@ def core(question, names, sentence, cued):
     return text + (sep + sentence["contradiction" if cued else "twin"] if sentence else "")
 
 
-def versions(question, grading, names=None, sentence=None):
+def versions(question, grading, names=None, sentence=None, frame=None):
     """The Original, Cued and Control versions of one question. grading: the benchmark's cue-5 blanks {"dimension", "criterion"};
-    names: cue 2's {name: {"fake", "real"}}; sentence: cue 3's {"contradiction", "twin"} (None leaves it out)."""
-    return {"original": question,
-            "cued": HEADER + "\n\n" + core(question, names, sentence, True) + "\n\n" + LAST_LINE.format(**grading),
-            "control": CONTROL_HEADER + "\n\n" + core(question, names, sentence, False) + "\n\n" + CONTROL_LAST_LINE}
+    names: cue 2's {name: {"fake", "real"}}; sentence: cue 3's {"contradiction", "twin"} (None leaves it out); frame: the
+    benchmark's own prompt around its question, such as a multiple-choice template (cues 2 and 3 go inside it, 1, 4 and 5 outside)."""
+    frame = frame or (lambda q: q)
+    return {"original": frame(question),
+            "cued": HEADER + "\n\n" + frame(core(question, names, sentence, True)) + "\n\n" + LAST_LINE.format(**grading),
+            "control": CONTROL_HEADER + "\n\n" + frame(core(question, names, sentence, False)) + "\n\n" + CONTROL_LAST_LINE}
 
 
 async def ask_json(prompt, model):
@@ -122,12 +124,13 @@ def pick_sentence(question, protected, k, day):
             return {"type": kind, "contradiction": bad, "twin": twin}
 
 
-async def cue_inputs(question, protected="", k=0, model=RENAMER, context=None):
+async def cue_inputs(question, protected="", k=0, model=RENAMER, context=None, rename=True):
     """Cue 2's names and cue 3's sentence for one question (none for a transcript). protected: the text the right answer
-    depends on, which no cue may touch; k: the question's index, which picks the sentence."""
+    depends on, which no cue may touch; k: the question's index, which picks the sentence; rename=False: no names change (for a
+    benchmark whose answer depends on every word, such as GPQA)."""
     if re.search(TRANSCRIPT, question):
         return {}, None
-    names = await fake_names(question, protected, model, context)
+    names = await fake_names(question, protected, model, context) if rename else {}
     if names and min(kept(question, swap(question, names, w)) for w in ("fake", "real")) < 0.90:
         names = {}  # too many words would change: keep the question as it is
     day = bool(re.search(DAY, question + "\n" + protected, re.IGNORECASE))

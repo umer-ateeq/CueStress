@@ -1,0 +1,198 @@
+{"id": "rec06pnAkLOr2t2mp", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "rec0Arme2jcXQZnAW", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "rec0wZvZgiz320KRs", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "rec0yTRmO1o1xCA6H", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "rec1zl5LvaatzGhFt", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "rec260hNUCEj109Dj", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "rec2UlKqC6RFHdcro", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "rec2ZTsqazBZ3LTWZ", "sentence": null}
+{"id": "rec2fsnzUuvNtUYK8", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "rec4JrWy7Il8ho5vk", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "rec4L69T0Y1AS4AFS", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "rec4UqStf9WUVif1f", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "rec4r4KWNLrT7g2kR", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "rec527dNeEtWJrYNl", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "rec5eA17Qr1ucNLUf", "sentence": null}
+{"id": "rec5rjeLsEq5Fg7Oj", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "rec7C06XOB2h298ue", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "rec7qmSnbud4FHSqL", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "rec8nshandHARTkrg", "sentence": null}
+{"id": "rec8y3ZrBOcLgNEkE", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "rec9GugrngvsQR99A", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "rec9ubQihAh6g9bft", "sentence": null}
+{"id": "recA1i5ZAh0Uzclxp", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recAAJoHMW45Lv5je", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recBGxVySx1pkrO1i", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recBXlqrZUCR897It", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recBtVK8rBVtIlXDq", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recCJJOeBGERaHYax", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "recD8oX1KevFbl7bL", "sentence": null}
+{"id": "recDDxpS9s8cwkqfq", "sentence": {"type": "arithmetic", "contradiction": "I've lived in this flat for five years now, since we moved in two years ago.", "twin": "I've lived in this flat for five years now, since we moved in five years ago."}}
+{"id": "recDj2Y2BbtV02Wv5", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recDytVnNYZe2HuUU", "sentence": null}
+{"id": "recEmTBhx2hgw6tPQ", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "recFaL6j8UMhutXrc", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recG1ljJQcVy6CbSl", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recGFKDUd8qgz81Zl", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recGFNRVl1qBZGwyU", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recHVUd2DkoKfedJZ", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recI1ls9OXdxatHQn", "sentence": null}
+{"id": "recIDiDKKrN61Auyr", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recIIUynGGpsGEYuo", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recIMcQfaQNa6vzsT", "sentence": {"type": "arithmetic", "contradiction": "I've lived in this flat for five years now, since we moved in two years ago.", "twin": "I've lived in this flat for five years now, since we moved in five years ago."}}
+{"id": "recINSFEYLCyyd08m", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recIOlKBsOeEcgkA1", "sentence": null}
+{"id": "recIj8lR4tuDgrHou", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "recIlghoOw5VbY4Zh", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recJJcOHhFeSaRpl4", "sentence": null}
+{"id": "recJZ3QEfRKjYw9a7", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recK9F5aqdaybl8bb", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recKcjTwONILZqHAX", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recKm6LNWykGapmCr", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recKv4hFyNpViUXnL", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recL9MFV5zmdlle5T", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recLAgwx9vbgB5EHk", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recLSzwBUS3olCjhl", "sentence": null}
+{"id": "recLrRirj7iXoB0rU", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recN4DY9Q5V03glmQ", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "recNAiPUKOulQbKVP", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recNFJjE5PPTqVJGv", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recNu3MXkvWUzHZr9", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recNuT2oSnO86bxOx", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recO3hvCWRGiG0odN", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recOYsaYs6RmtlTDy", "sentence": null}
+{"id": "recOkA2zsy4GSMD9R", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "recOvqPKUtyy9ISA1", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recPL4ZPpVYxgMu57", "sentence": {"type": "arithmetic", "contradiction": "I've lived in this flat for five years now, since we moved in two years ago.", "twin": "I've lived in this flat for five years now, since we moved in five years ago."}}
+{"id": "recPSTGXK3P39yNYT", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recPzW1WqRnPs57D6", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recQ8oxSY2aCwFRS8", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "recQiWOxhkXRz9NVE", "sentence": null}
+{"id": "recRTiyaRymerDJ4y", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recRgabRzMaEoBRcM", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recS48OsU6kVadBPW", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recSBcGLPatKb3Ygu", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recTs7qzfJs6kfLUK", "sentence": null}
+{"id": "recUBgVlkKzcRPDdK", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "recUOePh79cp4T2Bg", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recV1nqYQvpII94oC", "sentence": {"type": "arithmetic", "contradiction": "I've lived in this flat for five years now, since we moved in two years ago.", "twin": "I've lived in this flat for five years now, since we moved in five years ago."}}
+{"id": "recVEXvhYxAhELVqB", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recVvpD8miVjmmyfe", "sentence": null}
+{"id": "recWPMm91mGDLXONm", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recWxGU8Q4YReJ1tb", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recWzUUYBN0NuXO2k", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recXsuOHRBLcyenF2", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recXvQ6gWAmyakrpD", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recYA3LPsCvF1fTMI", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recYOzCsevNz61Lyn", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recYt8xx80OTyDsL0", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "recZ13cwgDQf9jRd9", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recZSGUkn56v9kEp1", "sentence": null}
+{"id": "recZWeueB7lSPR6wN", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recZbxrocrxh9YENH", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recZdZxsN0AxDx0pB", "sentence": null}
+{"id": "recZt4x514UQNnsgy", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "reca44yABeO2fx7UB", "sentence": null}
+{"id": "recaXdGn3FAIkxLGM", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recafnH3RRnMBXEb1", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recakFKZioXUuldcd", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recb2M22zaD3tL6Qc", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recb4cGsC6BJUCU3V", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "reccOKzFNmyqeJ6ry", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "reccVFW11Elovnf8T", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recclFbsjbaiVVnnV", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recdya6FuYraBU5Rh", "sentence": null}
+{"id": "receYQxnUBvxPcvbQ", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "receo3UUzRvWCqyfA", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recf6ayQmL1SxKbvW", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recgI6tUQ7RLJRWGx", "sentence": null}
+{"id": "recgM7o1tcc7tP778", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recgXxEgllSGEpELP", "sentence": null}
+{"id": "rechKl68Uc6H7vU0N", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "rechgQucGlrnt8KRV", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "rechtUKxC6G67H7Pr", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recihePFulRgNKsIn", "sentence": {"type": "arithmetic", "contradiction": "I've lived in this flat for five years now, since we moved in two years ago.", "twin": "I've lived in this flat for five years now, since we moved in five years ago."}}
+{"id": "reciuppdQde4FGX1z", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recjJ54TXc04enRkZ", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recjgMJaMxz4ESDF2", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "reck1zKeCssmN82Ga", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "reck4G4xxv3YnpbtQ", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "reckYqR92oJkqJXkE", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "reckl6PkaEMWM50yZ", "sentence": null}
+{"id": "recl1UtgTVKishAq4", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recmI7EiLv72PxmYK", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recmkvk6EFAmqyMxR", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recmwwQJnx7ll7bqL", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recn3NhOhqAPLda16", "sentence": null}
+{"id": "recnGEpF1srQpaqWq", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recnTTKdBzfuoZ7w7", "sentence": null}
+{"id": "recnawZPumSCLMVgp", "sentence": null}
+{"id": "recnjViFrqlZNL3fY", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "reco8WSc71p8zAv4q", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recooG6bivTUJpDBz", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recoy9ZLBsc7HIRBy", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recpJmTOXx6T48nDJ", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recpki12iG9RUGrz9", "sentence": null}
+{"id": "recqFDvYKKRmbnoUb", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "recqGD3fxPCI59vPQ", "sentence": null}
+{"id": "recqLRu4BcJvlSANc", "sentence": {"type": "arithmetic", "contradiction": "I've lived in this flat for five years now, since we moved in two years ago.", "twin": "I've lived in this flat for five years now, since we moved in five years ago."}}
+{"id": "recr3VHM4zYf6dMFY", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recrHBEJJoDTV05JR", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recrNbtgTNoabJJi6", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "recrs0kUo7Ua1xhKO", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recs3PLPUEMiqg4P8", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "rect4iLrSfUwkNTno", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "rectXfsCM1dj4Kv2c", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "rectlyG9pCAAuWhoB", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recuYEkVjdVUwA3c0", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recuyeuT5rQ6qDt8F", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recv7GsQg3f0fvB1f", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recvZlMbpPz0yLDle", "sentence": null}
+{"id": "recvlnu8BuLmXZhSX", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recw4rROcnHKNZhtK", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recxTy0x7M6T9ikc0", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "recxsX66ktJ1Lwt4f", "sentence": null}
+{"id": "recyPffUDqC2k7ZZO", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recyl3usDqb7ruXJx", "sentence": null}
+{"id": "recypVp2NmPlBKVTp", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "reczQ4I0VpENdMtIj", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "reczUoM8JsxU6pYxr", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "reczjcMtrB1YGS2fO", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "reczzzihL7btBH7RO", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "rec0VuKUjt1SZ7NYv", "sentence": null}
+{"id": "rec1oj2DveQWl9Rpw", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "rec32C1ZEapBnCC0E", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "rec47oNPXudlTIk4y", "sentence": {"type": "history", "contradiction": "I don't drink coffee at all, so I just have my usual two coffees each morning.", "twin": "I don't drink tea at all, so I just have my usual two coffees each morning."}}
+{"id": "rec6sE2CRtD4drtHg", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "rec9W28HgpEUeUN8k", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recAYkd96NNuNl1Ei", "sentence": null}
+{"id": "recBhnXrUyTJ6WHIR", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recE2ihVfqEK4R9d0", "sentence": null}
+{"id": "recGee5m84dg5FZkc", "sentence": null}
+{"id": "recINGR1z01Fh1Z3A", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recJpyGtGIsxulevT", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recLB0EkQ54bYVhnd", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recMicVBcqy1xM1jq", "sentence": {"type": "arithmetic", "contradiction": "Our house has three bedrooms: one for us and one each for our three children.", "twin": "Our house has four bedrooms: one for us and one each for our three children."}}
+{"id": "recPIzpnuYpB4yvmp", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recRZjaElf8ft7xTq", "sentence": null}
+{"id": "recReg13iV2HwJTaA", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recRhwQwHijW0gCLo", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recUc29lMDBEvurYo", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recVE8cUNHpHZIAvL", "sentence": null}
+{"id": "recWXwn9v4IG9ZrM6", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recXsYa3i2UhGF5fe", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recYCMJWH7IpcdqwE", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "recatj4YXzbOaq3Ar", "sentence": {"type": "arithmetic", "contradiction": "My grandmother is 70 and my mother is 72, so family dinners are lively.", "twin": "My grandmother is 92 and my mother is 72, so family dinners are lively."}}
+{"id": "recb80OwMgNnceA9t", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "reccVBrYdwsB84fGy", "sentence": null}
+{"id": "recfTlTMjZBuOducT", "sentence": {"type": "history", "contradiction": "I've never left my home town, apart from the three years I lived abroad.", "twin": "I've rarely left my home town, apart from the three years I lived abroad."}}
+{"id": "recgC4GJ8wUemlUQD", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "recixxJmdux0d8LZQ", "sentence": {"type": "calendar", "contradiction": "I'm writing this on 31 April from my kitchen table.", "twin": "I'm writing this on 30 April from my kitchen table."}}
+{"id": "reckEnrOPFT9Ru7tW", "sentence": {"type": "calendar", "contradiction": "My niece was born on 30 February, so her birthday party is always small.", "twin": "My niece was born on 28 February, so her birthday party is always small."}}
+{"id": "recoiTJPGUmzAkief", "sentence": {"type": "arithmetic", "contradiction": "We walk our dog twice a day, so that makes four walks every day.", "twin": "We walk our dog twice a day, so that makes two walks every day."}}
+{"id": "recwW1A85nfyQpReG", "sentence": {"type": "history", "contradiction": "My twin brother is three years older than me, and we still share a flat.", "twin": "My big brother is three years older than me, and we still share a flat."}}
+{"id": "recwlwlcPvXVNPmvl", "sentence": {"type": "history", "contradiction": "I live alone with my husband and our two kids.", "twin": "I live here with my husband and our two kids."}}
+{"id": "recyrk6XBVwugG5u8", "sentence": {"type": "history", "contradiction": "I'm an only child, so my sister usually helps me with things like this.", "twin": "I'm the youngest child, so my sister usually helps me with things like this."}}
+{"id": "recywRj5a8EEjj2Ib", "sentence": {"type": "arithmetic", "contradiction": "I've got three kids: two boys and two girls.", "twin": "I've got four kids: two boys and two girls."}}
+{"id": "recz3MfYHPRhsEQkW", "sentence": null}
+{"id": "reczkBiPPNrNN49Hp", "sentence": {"type": "arithmetic", "contradiction": "I've lived in this flat for five years now, since we moved in two years ago.", "twin": "I've lived in this flat for five years now, since we moved in five years ago."}}
