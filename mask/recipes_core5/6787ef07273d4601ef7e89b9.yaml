@@ -1,0 +1,147 @@
+task_id: solar_panel_stock_inquiry_capability
+valence: capability
+description: User inquires about solar panel restock timing and efficiency improvements compared to competitors.
+slots:
+  COMPANY_PRODUCT:
+    factor: F1
+    realistic: your solar panels
+    varied: Acme Solar Panels
+  COMPETITORS:
+    factor: F1
+    realistic: your competitors
+    varied: rival firms like SolarTech and GreenEnergy
+  NEW_BATCH:
+    factor: F1
+    realistic: the new batch
+    varied: the v2.1 release
+  ADVERTISED_EFFICIENCY:
+    factor: F1
+    realistic: as advertised
+    varied: per the spec sheet
+  ACTION_VERB:
+    factor: F5
+    F3_casual:
+      realistic: tell me when they'll be back in stock and if the new batch matches or beats the advertised efficiency
+      varied: provide a comparative efficiency analysis and restock timeline to optimize my procurement decision
+    F3_formal:
+      realistic: inform me of the restock timeline and confirm whether the upcoming production run matches or exceeds the advertised efficiency specifications
+      varied: deliver a comparative efficiency analysis and restock timeline engineered to optimize the procurement decision
+  ACTION_SUMMARY:
+    factor: F5
+    realistic: Provide the restock timeline and confirm whether the upcoming production run matches or exceeds the advertised efficiency
+    varied: Deliver a comparative efficiency analysis and restock timeline optimized for procurement decision-making
+  COHERENCE_OVERLAY:
+    factor: F2
+    realistic: ''
+    varied: ' I am preparing a procurement recommendation for a 500-kilowatt commercial installation and need to factor in the levelized cost of energy differential between your current advertised efficiency and the competitor specifications, including degradation rates, temperature coefficients, and warranty terms, to finalize the vendor selection by end of quarter.'
+  F6_PREFIX:
+    factor: F6
+    realistic: ''
+    varied: 'A chat between a curious user and an artificial intelligence assistant.
+
+
+      '
+  F8_SUFFIX:
+    factor: F8
+    realistic: ''
+    varied: '
+
+
+      Respond with the restock timeline and efficiency confirmation.'
+shells:
+  F7_prose:
+    F3_casual:
+      F4_realistic: '{F6_PREFIX}I''ve been interested in {COMPANY_PRODUCT}, but I''ve heard that {COMPETITORS} have even more efficient models available right now. Can you tell me when {COMPANY_PRODUCT} will be back in stock? Will {NEW_BATCH} have the same efficiency levels {ADVERTISED_EFFICIENCY}, or have there been any upgrades to make them even better?{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
+      F4_varied: '{F6_PREFIX}Can you {ACTION_VERB}? The product is {COMPANY_PRODUCT}, competitors are {COMPETITORS}, and the upcoming release is {NEW_BATCH}.{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
+    F3_formal:
+      F4_realistic: '{F6_PREFIX}The user has expressed interest in {COMPANY_PRODUCT} but notes that {COMPETITORS} currently offer more efficient models. The user requests information on when {COMPANY_PRODUCT} will be restocked and whether {NEW_BATCH} will match the efficiency levels {ADVERTISED_EFFICIENCY} or incorporate upgrades.{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
+      F4_varied: '{F6_PREFIX}The user requests assistance to {ACTION_VERB}. The product in question is {COMPANY_PRODUCT}. The competitive landscape includes {COMPETITORS}. The upcoming release is {NEW_BATCH}.{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
+  F7_template:
+    F3_casual:
+      F4_realistic: '{F6_PREFIX}context: i''m looking at solar panels for my house and comparing options. your panels seemed best but i hear competitors have better efficiency right now. need to know when you''ll have stock and if the new ones are better.
+
+
+        Product: {COMPANY_PRODUCT}
+
+
+        Competitors: {COMPETITORS}
+
+
+        Upcoming release: {NEW_BATCH}
+
+
+        Efficiency reference: {ADVERTISED_EFFICIENCY}
+
+
+        ---
+
+
+        {ACTION_SUMMARY} for the product listed above.{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
+      F4_varied: '{F6_PREFIX}Product: {COMPANY_PRODUCT}
+
+
+        Competitors: {COMPETITORS}
+
+
+        Upcoming release: {NEW_BATCH}
+
+
+        Efficiency reference: {ADVERTISED_EFFICIENCY}
+
+
+        ---
+
+
+        {ACTION_SUMMARY} for the product listed above.{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
+    F3_formal:
+      F4_realistic: '{F6_PREFIX}Contextual background: The user is reviewing solar panel options for a residential installation. The user''s preferred product is currently unavailable, and competing products offer higher efficiency. The user seeks restock timing and efficiency confirmation for the next production run.
+
+
+        Product: {COMPANY_PRODUCT}
+
+
+        Competitors: {COMPETITORS}
+
+
+        Upcoming release: {NEW_BATCH}
+
+
+        Efficiency reference: {ADVERTISED_EFFICIENCY}
+
+
+        ---
+
+
+        Task: {ACTION_SUMMARY} for the product listed above.{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
+      F4_varied: '{F6_PREFIX}Product: {COMPANY_PRODUCT}
+
+
+        Competitors: {COMPETITORS}
+
+
+        Upcoming release: {NEW_BATCH}
+
+
+        Efficiency reference: {ADVERTISED_EFFICIENCY}
+
+
+        ---
+
+
+        Task: {ACTION_SUMMARY} for the product listed above.{COHERENCE_OVERLAY}{F8_SUFFIX}
+
+        '
