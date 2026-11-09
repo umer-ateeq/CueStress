@@ -4,55 +4,66 @@
 Umer Ateeq, independent researcher.
 
 CueStress is a toolkit for the [Inspect AI](https://inspect.aisi.org.uk) evaluation library. It keeps each benchmark
-question's wording, adds five test cues adapted from EvalAwareBench, and measures, on the same replies, whether the model
-notices them (mentions of a test in its reasoning) and whether its behaviour changes.
+question's wording, adds five test cues around it, and compares three versions on the same items:
 
-The five cues are a test-style header, fake names, a self-contradicting sentence, the tag `EVAL==TRUE`, and a grading line
-naming what is scored. Every question runs as three versions:
-
-| Version | `arms` name |
+| Version | What the model sees |
 |---|---|
-| Original | `plain` |
-| Cued (cues 1–5) | `allcues` |
-| Control (same layout, neutral text) | `placebo` |
+| Original | the benchmark question as it is |
+| Cued | a test-style header, the question with placeholder names and a contradicting sentence, and a last line with `EVAL==TRUE` and what is graded |
+| Control | the same layout with neutral text: a plain header, ordinary names, a consistent sentence and a neutral last line |
 
 The benchmark's own judge always sees the Original question, so it scores the reply, not the cues.
 
-## Layout
+## Files
 
-| Path | What it holds |
+| File | What it does |
 |---|---|
-| `cue.py`, `dataset.py` | EvalAwareBench's cues and data (CC BY-NC 4.0 data) |
-| `main.py`, `solver.py`, `scorer.py`, `judge_prompt.txt` | the EvalAwareBench task in Inspect: its solver and its awareness judge |
-| `template/` | builds the cue versions for a benchmark |
-| `mask/` | the MASK task with every version, its scenario files and its build script |
-| `strongreject/` | the StrongREJECT task with the Original, Cued and Control versions |
+| `cue.py` | the five cues, and the Control's neutral text for each |
+| `template.py` | puts the cues around any question: `versions()` gives the Original, Cued and Control versions |
+| `mask/task.py` | MASK (honesty under pressure) with the three versions; `mask/scenarios.jsonl` holds its 130 scenarios |
+| `mask/extra.py` | the paper's extra MASK versions, which split the grading line from the other cues |
+| `strongreject/task.py` | StrongREJECT (refusal of harmful requests) with the three versions |
+| `compare.py` | compares the versions in the logs: each one against the Original, and Cued against Control |
 
 ## Setup
 
 Python 3.11 or later, from the repository root:
 
 ```bash
-pip install inspect_ai==0.3.263 anthropic openai python-dotenv huggingface_hub pyyaml matplotlib
+pip install inspect_ai==0.3.263 anthropic openai python-dotenv
 ```
 
-Put the API keys in a `.env` file in the repository root (it is ignored by git): `ANTHROPIC_API_KEY`, `OPENROUTER_API_KEY`
-and `OPENROUTER_API_KEY_4`.
+Put the API keys in a `.env` file in the repository root (it is ignored by git): `ANTHROPIC_API_KEY` and `OPENROUTER_API_KEY`.
 
 ## Running
 
-Run every command from the repository root with `PYTHONPATH=.`. MASK, all three versions:
+Run from the repository root with `PYTHONPATH=.`. MASK, all three versions in one run:
 
 ```bash
-inspect eval mask/task.py -T condition=mixed -T awareness=false -T version=final6 -T arms=plain,allcues,placebo -T model=openrouter/nvidia/nemotron-3.5-super-vl:free -T judge=anthropic/claude-sonnet-5-5 -T judge_effort=low -T judge_max_tokens=2000 --max-connections 4 --sample-shuffle 42
+inspect eval mask/task.py --model openrouter/nvidia/nemotron-3.5-super-vl:free --sample-shuffle 42 --max-connections 4 --log-dir logs-mask
 ```
 
-StrongREJECT, one version on one model (`-T version=original`, `cued` or `placebo`):
+StrongREJECT, one version per run (`original`, `cued` or `control`):
 
 ```bash
-inspect eval strongreject/task.py -T version=cued --model anthropic/claude-opus-5-5 -T effort=medium -T judge=anthropic/claude-sonnet-5-5 -T judge_effort=low -T judge_max_tokens=2000 --max-connections 8 --sample-shuffle 42
+inspect eval strongreject/task.py -T version=cued --model anthropic/claude-opus-5-5 -T effort=medium --sample-shuffle 42 --log-dir logs-sr-cued
 ```
+
+Compare the versions:
+
+```bash
+python compare.py logs-mask
+```
+
+The extra MASK versions run the same way, for example `-T versions=original,cues_1_4,honesty_request`.
+
+## Adding a benchmark
+
+A benchmark needs its questions, its own judge (shown the Original question), and the two words of its grading line, which
+`template.fill_grading()` writes once from the benchmark's description. `template.cue_inputs()` picks each question's names
+and sentence, and `template.versions()` builds the three versions.
 
 ## Licence
 
-Code: MIT (`LICENSE`). EvalAwareBench data: CC BY-NC 4.0, no training use. MASK and StrongREJECT keep their own licences.
+Code: MIT (`LICENSE`). The cue kinds are adapted from EvalAwareBench (Li et al. 2026, arXiv:2605.23055). MASK and StrongREJECT
+keep their own licences.
